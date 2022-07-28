@@ -1,4 +1,3 @@
-
 .carousel-inner{
     height: 90vh;
 }
@@ -8,4 +7,36 @@
 }
 main .modal-area{
     height: 200px;
+}
+article{
+    width: 80%;
+}
+footer{
+    height: 300px;
+}
+
+@media screen and (max-width:992px) and (min-width:769px){
+    main .modal-area{
+        height: 300px;
+    }
+    .carousel-inner{
+        height: 100vh;
+    }
+    .carousel-inner img{
+        height: 100vh;
+    }
+}
+@media screen and (max-width:768px){
+    main .modal-area{
+        height: 400px;
+    }
+    article{
+        width: 100%;
+    }
+    .carousel-inner{
+        height: 110vh;
+    }
+    .carousel-inner img{
+        height: 110vh;
+    }
 }
